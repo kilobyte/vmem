@@ -1,2 +1,5 @@
 Tests: examples-libvmem
 Depends: gcc, libc6-dev, libvmem-dev
+
+Tests: vmmalloc
+Depends: libvmmalloc1
