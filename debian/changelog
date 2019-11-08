@@ -1,0 +1,5 @@
+vmem (1.8~rc1-1) experimental; urgency=medium
+
+  * Split libvmem and libvmmalloc out of pmdk.  Closes: #944371.
+
+ -- Adam Borowski <kilobyte@angband.pl>  Fri, 08 Nov 2019 18:48:14 +0100
