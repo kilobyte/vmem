@@ -37,6 +37,16 @@
 
 set -e
 
+echo -en '\e[1mI am \e[0m'; whoami
+echo -n 'pwd : '; pwd
+echo WORKDIR : "$WORKDIR"
+echo "$WORKDIR/src" :
+ls -al $WORKDIR/src
+echo "$WORKDIR/src/test" :
+ls -al $WORKDIR/src/test
+echo "/etc/passwd" :
+cat /etc/passwd
+
 # Configure tests
 cat << EOF > $WORKDIR/src/test/testconfig.sh
 LONGDIR=PhngluimglwnafhCthulhuRlyehwgahnaglfhtagnHaizhronaDagonhaiepngmnahnhriikadishtugnaiihcuhesyhahfgnaiihsgnwahlnogsgnwahlnghahaiChaugnarFaugnhlirghHshtungglingnogRlyehnghaogShub-NiggurathothhgofnnlloigshuggsllhannnCthulhuahnyth
