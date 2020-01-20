@@ -126,6 +126,7 @@ docker run --rm --privileged=true --name=$containerName -ti \
 	--env COVERITY_SCAN_NOTIFICATION_EMAIL=$COVERITY_SCAN_NOTIFICATION_EMAIL \
 	--env FAULT_INJECTION=$FAULT_INJECTION \
 	--env GITHUB_REPO=$GITHUB_REPO \
+	--user `stat -c %u:%g $0` \
 	-v $HOST_WORKDIR:$WORKDIR \
 	-v /etc/localtime:/etc/localtime \
 	-w $SCRIPTSDIR \
