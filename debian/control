@@ -16,7 +16,7 @@ Vcs-Git: https://github.com/kilobyte/vmem -b debian
 Vcs-Browser: https://github.com/kilobyte/vmem/tree/debian
 
 Package: libvmem1
-Architecture: any
+Architecture: amd64 arm64
 Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Persistent Memory volatile memory support library
@@ -32,7 +32,7 @@ Description: Persistent Memory volatile memory support library
 # Dropping these -- let's see if anyone complains.
 
 #Package: libvmem1-debug
-#Architecture: any
+#Architecture: amd64 arm64
 #Multi-Arch: same
 #Depends: ${misc:Depends}, ${shlibs:Depends}
 #Description: Persistent Memory volatile memory support library — debug build
@@ -51,7 +51,7 @@ Description: Persistent Memory volatile memory support library
 
 Package: libvmem-dev
 Section: libdevel
-Architecture: any
+Architecture: amd64 arm64
 Multi-Arch: same
 Depends: libvmem1 (= ${binary:Version}),
          ${misc:Depends},
@@ -65,7 +65,7 @@ Description: development files for libvmem1
  against libvmem.
 
 Package: libvmmalloc1
-Architecture: any
+Architecture: amd64 arm64
 Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Persistent Memory dynamic allocation support library
@@ -75,7 +75,7 @@ Description: Persistent Memory dynamic allocation support library
  application.
 
 #Package: libvmmalloc1-debug
-#Architecture: any
+#Architecture: amd64 arm64
 #Multi-Arch: same
 #Depends: ${misc:Depends}, ${shlibs:Depends}
 #Description: Persistent Memory dynamic allocation support library — debug build
@@ -90,7 +90,7 @@ Description: Persistent Memory dynamic allocation support library
 
 Package: libvmmalloc-dev
 Section: libdevel
-Architecture: any
+Architecture: amd64 arm64
 Multi-Arch: same
 Depends: libvmmalloc1 (= ${binary:Version}),
          ${misc:Depends},
