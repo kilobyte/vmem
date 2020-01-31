@@ -9,7 +9,7 @@ Build-Depends: bc,
                pkg-config,
                strace,
                valgrind,
-Standards-Version: 4.4.1
+Standards-Version: 4.5.0
 Rules-Requires-Root: no
 Homepage: http://pmem.io/vmem/
 Vcs-Git: https://github.com/kilobyte/vmem -b debian
