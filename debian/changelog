@@ -1,3 +1,10 @@
+vmem (1.8-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Limit archs to amd64 arm64.
+
+ -- Adam Borowski <kilobyte@angband.pl>  Fri, 31 Jan 2020 17:35:42 +0100
+
 vmem (1.8~rc1-1) experimental; urgency=medium
 
   * Split libvmem and libvmmalloc out of pmdk.  Closes: #944371.
