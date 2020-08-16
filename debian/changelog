@@ -1,3 +1,9 @@
+vmem (1.8-2) unstable; urgency=medium
+
+  * Fix FTBFS with binutils 2.35.  Closes: #967012.
+
+ -- Adam Borowski <kilobyte@angband.pl>  Sun, 16 Aug 2020 12:26:47 +0200
+
 vmem (1.8-1) unstable; urgency=medium
 
   * New upstream release.
